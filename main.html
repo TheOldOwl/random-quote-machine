@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Quote Machine</title>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body onload="loadQuote()" id="bck_color">
+    <div class="main-container fade" id="main_qtr">
+        <div class="quote-container" id="txt_color">
+            <h2 class="txt-color" id="quote" ></h2>
+            <p class="txt-color" id="author" ></p>
+            <a id="tw-btn" target="_blank" onclick="tweet()"><i class="fa fa-twitter txt-color" aria-hidden="true"></i></a>
+        </div>
+        <a href="#" class="quote-btn btn-fade txt-color" onclick="randomQuote()">New Quote</a>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="main.js"></script>
+<script src="test.js"></script>
+</html>
